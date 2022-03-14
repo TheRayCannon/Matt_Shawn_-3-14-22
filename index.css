@@ -1,5 +1,47 @@
+<<<<<<< HEAD
 div {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
+=======
+nav {
+    display: flex;
+    
+    flex-flow: row nowrap;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    width: 500px;
+    
+   }
+
+ .topNav li {
+   display: inline;
+   width: 500px;
+   justify-content: space-around;
+   padding: 15px;
+
+ }
+
+
+nav > a {
+ display: flex;
+ width: 20px;
+ padding: 20px;
+ background-color: blue;
+ color: white;
+ justify-content: center;
+ font-size: medium;
+}
+
+
+>>>>>>> 9ed5bd43357e0a234c116d62fb14082f44faa955
