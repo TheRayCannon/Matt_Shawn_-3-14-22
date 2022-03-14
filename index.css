@@ -1,10 +1,18 @@
-<<<<<<< HEAD
-div {
+/* heacd */
+ul {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-=======
+
+
+
+li img { 
+  width: 250px;
+  height: 250px;
+
+}
+/* body*/
 nav {
     display: flex;
     
@@ -12,6 +20,7 @@ nav {
     width: 100%;
     position: relative;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
 
@@ -24,24 +33,5 @@ header ul {
     
    }
 
- .topNav li {
-   display: inline;
-   width: 500px;
-   justify-content: space-around;
-   padding: 15px;
-
- }
 
 
-nav > a {
- display: flex;
- width: 20px;
- padding: 20px;
- background-color: blue;
- color: white;
- justify-content: center;
- font-size: medium;
-}
-
-
->>>>>>> 9ed5bd43357e0a234c116d62fb14082f44faa955
